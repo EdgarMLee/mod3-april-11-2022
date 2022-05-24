@@ -30,4 +30,83 @@ p.more {
   display: none;
 }
 
-/* Write your CSS here. */
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a > span:hover,
+a > span:visited {
+  color: #800080;
+}
+
+a:hover,
+a > span:hover {
+  font-weight: bold;
+}
+
+.page-container {
+  width: 1200px;
+}
+
+#leftbar,
+#center,
+#rightbar {
+  float: left;
+  padding: 0 30px;  /* TOP/BOTTOM 0, LEFT/RIGHT 30 */
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar,
+#rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before{
+  content: '☮️';
+}
