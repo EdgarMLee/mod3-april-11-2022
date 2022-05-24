@@ -1,21 +1,30 @@
 .box1 {
   background-color: blueviolet;
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
 }
 
 .box2 {
   background-color: greenyellow;
+  border-width: 2px;
+  border-color: red;
+  border-style: dotted;
+  border-radius: 5px;
 }
 
 .text1 {
-  background-color: blue;
+  background-color: #0000ff;
+  color: #FFC300;
 }
 
 .text2 {
   background-color: burlywood;
+  color: rgb(214,122,127);
 }
 
 .box3 {
-  background-color: lavender;
+  background-color: rgba(200, 215, 230, 0.6);;
 }
 
 .box5 {
