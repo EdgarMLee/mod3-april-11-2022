@@ -110,3 +110,16 @@ ul.clfooter > li {
 h4.ban::before{
   content: '☮️';
 }
+
+input:focus {
+  background-color: lightyellow;
+}
+
+h4.ban:first-child {
+  font-size: 1.2rem;
+}
+
+.menu.collapsible .acitem:last-child {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #464646;
+}
