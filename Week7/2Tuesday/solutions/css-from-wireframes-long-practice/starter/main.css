@@ -2,3 +2,95 @@ html,
 body {
   font-family: fell, Georgia, Cambria, 'Times New Roman';
 }
+
+.nav__upper,
+.nav__lower {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.upper__left {
+  height: 32px;
+  width: 32px;
+}
+
+.upper__right {
+  display: flex;
+}
+
+.sign-in {
+  padding: 7px 16px 9px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1A8917;
+  text-decoration: none;
+}
+
+.sign-in:hover {
+  color: darkred;
+  font-weight: bold;
+}
+
+.get-started {
+  padding: 7px 16px 9px;
+  color: #1A8917;
+  border: #1A8917 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.get-started:hover {
+  border: darkred 1px solid;
+  color: darkred;
+  font-weight: bold;
+}
+
+.nav__lower {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px;
+}
+
+.nav__lower a {
+  text-decoration: none;
+  font-weight: 500;
+  color: gray;
+  font-size: 16px;
+}
+
+.nav__lower a:hover {
+  color: darkred;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.content {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  margin: auto;
+}
+
+h1 {
+  box-sizing: border-box;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  overflow-wrap: break-word;
+}
+
+p {
+  font-size: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 42px 0px -9px;
+}
